@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A6069C01E5D714700686612 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6069BF1E5D714700686612 /* main.m */; };
+		8A6069C31E5D714700686612 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6069C21E5D714700686612 /* AppDelegate.m */; };
+		8A6069C61E5D714700686612 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6069C51E5D714700686612 /* ViewController.m */; };
+		8A6069C91E5D714700686612 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A6069C71E5D714700686612 /* Main.storyboard */; };
+		8A6069CB1E5D714700686612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A6069CA1E5D714700686612 /* Assets.xcassets */; };
+		8A6069CE1E5D714700686612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A6069CC1E5D714700686612 /* LaunchScreen.storyboard */; };
+		8A6069D91E5D714700686612 /* ZWChooseMultiImagesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6069D81E5D714700686612 /* ZWChooseMultiImagesTests.m */; };
+		8A6069E41E5D714700686612 /* ZWChooseMultiImagesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6069E31E5D714700686612 /* ZWChooseMultiImagesUITests.m */; };
+		8A6069FD1E5D729A00686612 /* zw_choosePhotos_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A6069F61E5D729A00686612 /* zw_choosePhotos_back@2x.png */; };
+		8A6069FE1E5D729A00686612 /* zw_choosePhotos_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A6069F71E5D729A00686612 /* zw_choosePhotos_placeholder.png */; };
+		8A6069FF1E5D729A00686612 /* zw_choosePhotosback@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A6069F81E5D729A00686612 /* zw_choosePhotosback@3x.png */; };
+		8A606A001E5D729A00686612 /* zw_icon_image_no@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A6069F91E5D729A00686612 /* zw_icon_image_no@2x.png */; };
+		8A606A011E5D729A00686612 /* zw_icon_image_no@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A6069FA1E5D729A00686612 /* zw_icon_image_no@3x.png */; };
+		8A606A021E5D729A00686612 /* zw_icon_image_yes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A6069FB1E5D729A00686612 /* zw_icon_image_yes@2x.png */; };
+		8A606A031E5D729A00686612 /* zw_icon_image_yes@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A6069FC1E5D729A00686612 /* zw_icon_image_yes@3x.png */; };
+		8A606A061E5D737900686612 /* ZWGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A606A051E5D737900686612 /* ZWGroupModel.m */; };
+		8A606A091E5D74E400686612 /* ZWImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A606A081E5D74E400686612 /* ZWImageHelper.m */; };
+		8A606A0C1E5D79FB00686612 /* ZWChoosedCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A606A0B1E5D79FB00686612 /* ZWChoosedCollectionViewCell.m */; };
+		8A606A0F1E5D7DEA00686612 /* ZWPhotosListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A606A0E1E5D7DEA00686612 /* ZWPhotosListViewController.m */; };
+		8A606A121E5D7FC100686612 /* ZWPhotoListFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A606A111E5D7FC100686612 /* ZWPhotoListFooterView.m */; };
+		8A606A151E5D89F500686612 /* ZWListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A606A141E5D89F500686612 /* ZWListCollectionViewCell.m */; };
+		8A606A1B1E5D8D2000686612 /* PHAsset+addFlag.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A606A1A1E5D8D2000686612 /* PHAsset+addFlag.m */; };
+		8A606A1E1E5D99AD00686612 /* ZWPhotoGroupsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A606A1D1E5D99AD00686612 /* ZWPhotoGroupsViewController.m */; };
+		8A606B431E5E833200686612 /* ZWPhotoGroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A606B421E5E833200686612 /* ZWPhotoGroupTableViewCell.m */; };
+		8A606B461E5E90F500686612 /* ZWPhotoFullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A606B451E5E90F500686612 /* ZWPhotoFullViewController.m */; };
+		8A606B491E5E934D00686612 /* ZWFullImageHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A606B481E5E934D00686612 /* ZWFullImageHeaderView.m */; };
+		8A606B4C1E5E936D00686612 /* ZWFullImageFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A606B4B1E5E936D00686612 /* ZWFullImageFooterView.m */; };
+		8A606B4F1E5E939A00686612 /* ZWFullImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A606B4E1E5E939A00686612 /* ZWFullImageCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A6069D51E5D714700686612 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A6069B31E5D714700686612 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A6069BA1E5D714700686612;
+			remoteInfo = ZWChooseMultiImages;
+		};
+		8A6069E01E5D714700686612 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A6069B31E5D714700686612 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A6069BA1E5D714700686612;
+			remoteInfo = ZWChooseMultiImages;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A6069BB1E5D714700686612 /* ZWChooseMultiImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZWChooseMultiImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A6069BF1E5D714700686612 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A6069C11E5D714700686612 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A6069C21E5D714700686612 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A6069C41E5D714700686612 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8A6069C51E5D714700686612 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8A6069C81E5D714700686612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A6069CA1E5D714700686612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A6069CD1E5D714700686612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A6069CF1E5D714700686612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A6069D41E5D714700686612 /* ZWChooseMultiImagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZWChooseMultiImagesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A6069D81E5D714700686612 /* ZWChooseMultiImagesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWChooseMultiImagesTests.m; sourceTree = "<group>"; };
+		8A6069DA1E5D714700686612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A6069DF1E5D714700686612 /* ZWChooseMultiImagesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZWChooseMultiImagesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A6069E31E5D714700686612 /* ZWChooseMultiImagesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWChooseMultiImagesUITests.m; sourceTree = "<group>"; };
+		8A6069E51E5D714700686612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A6069F61E5D729A00686612 /* zw_choosePhotos_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zw_choosePhotos_back@2x.png"; sourceTree = "<group>"; };
+		8A6069F71E5D729A00686612 /* zw_choosePhotos_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zw_choosePhotos_placeholder.png; sourceTree = "<group>"; };
+		8A6069F81E5D729A00686612 /* zw_choosePhotosback@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zw_choosePhotosback@3x.png"; sourceTree = "<group>"; };
+		8A6069F91E5D729A00686612 /* zw_icon_image_no@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zw_icon_image_no@2x.png"; sourceTree = "<group>"; };
+		8A6069FA1E5D729A00686612 /* zw_icon_image_no@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zw_icon_image_no@3x.png"; sourceTree = "<group>"; };
+		8A6069FB1E5D729A00686612 /* zw_icon_image_yes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zw_icon_image_yes@2x.png"; sourceTree = "<group>"; };
+		8A6069FC1E5D729A00686612 /* zw_icon_image_yes@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zw_icon_image_yes@3x.png"; sourceTree = "<group>"; };
+		8A606A041E5D737900686612 /* ZWGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWGroupModel.h; sourceTree = "<group>"; };
+		8A606A051E5D737900686612 /* ZWGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWGroupModel.m; sourceTree = "<group>"; };
+		8A606A071E5D74E400686612 /* ZWImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWImageHelper.h; sourceTree = "<group>"; };
+		8A606A081E5D74E400686612 /* ZWImageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWImageHelper.m; sourceTree = "<group>"; };
+		8A606A0A1E5D79FB00686612 /* ZWChoosedCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWChoosedCollectionViewCell.h; sourceTree = "<group>"; };
+		8A606A0B1E5D79FB00686612 /* ZWChoosedCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWChoosedCollectionViewCell.m; sourceTree = "<group>"; };
+		8A606A0D1E5D7DEA00686612 /* ZWPhotosListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPhotosListViewController.h; sourceTree = "<group>"; };
+		8A606A0E1E5D7DEA00686612 /* ZWPhotosListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWPhotosListViewController.m; sourceTree = "<group>"; };
+		8A606A101E5D7FC100686612 /* ZWPhotoListFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPhotoListFooterView.h; sourceTree = "<group>"; };
+		8A606A111E5D7FC100686612 /* ZWPhotoListFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWPhotoListFooterView.m; sourceTree = "<group>"; };
+		8A606A131E5D89F500686612 /* ZWListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWListCollectionViewCell.h; sourceTree = "<group>"; };
+		8A606A141E5D89F500686612 /* ZWListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWListCollectionViewCell.m; sourceTree = "<group>"; };
+		8A606A191E5D8D2000686612 /* PHAsset+addFlag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PHAsset+addFlag.h"; sourceTree = "<group>"; };
+		8A606A1A1E5D8D2000686612 /* PHAsset+addFlag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PHAsset+addFlag.m"; sourceTree = "<group>"; };
+		8A606A1C1E5D99AD00686612 /* ZWPhotoGroupsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPhotoGroupsViewController.h; sourceTree = "<group>"; };
+		8A606A1D1E5D99AD00686612 /* ZWPhotoGroupsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWPhotoGroupsViewController.m; sourceTree = "<group>"; };
+		8A606B411E5E833200686612 /* ZWPhotoGroupTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPhotoGroupTableViewCell.h; sourceTree = "<group>"; };
+		8A606B421E5E833200686612 /* ZWPhotoGroupTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWPhotoGroupTableViewCell.m; sourceTree = "<group>"; };
+		8A606B441E5E90F500686612 /* ZWPhotoFullViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPhotoFullViewController.h; sourceTree = "<group>"; };
+		8A606B451E5E90F500686612 /* ZWPhotoFullViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWPhotoFullViewController.m; sourceTree = "<group>"; };
+		8A606B471E5E934D00686612 /* ZWFullImageHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWFullImageHeaderView.h; sourceTree = "<group>"; };
+		8A606B481E5E934D00686612 /* ZWFullImageHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWFullImageHeaderView.m; sourceTree = "<group>"; };
+		8A606B4A1E5E936D00686612 /* ZWFullImageFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWFullImageFooterView.h; sourceTree = "<group>"; };
+		8A606B4B1E5E936D00686612 /* ZWFullImageFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWFullImageFooterView.m; sourceTree = "<group>"; };
+		8A606B4D1E5E939A00686612 /* ZWFullImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWFullImageCollectionViewCell.h; sourceTree = "<group>"; };
+		8A606B4E1E5E939A00686612 /* ZWFullImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWFullImageCollectionViewCell.m; sourceTree = "<group>"; };
+		8A606B501E5EBC0900686612 /* ZWChooseMultiImagesConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWChooseMultiImagesConfig.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A6069B81E5D714700686612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6069D11E5D714700686612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6069DC1E5D714700686612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A6069B21E5D714700686612 = {
+			isa = PBXGroup;
+			children = (
+				8A6069BD1E5D714700686612 /* ZWChooseMultiImages */,
+				8A6069D71E5D714700686612 /* ZWChooseMultiImagesTests */,
+				8A6069E21E5D714700686612 /* ZWChooseMultiImagesUITests */,
+				8A6069BC1E5D714700686612 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A6069BC1E5D714700686612 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A6069BB1E5D714700686612 /* ZWChooseMultiImages.app */,
+				8A6069D41E5D714700686612 /* ZWChooseMultiImagesTests.xctest */,
+				8A6069DF1E5D714700686612 /* ZWChooseMultiImagesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A6069BD1E5D714700686612 /* ZWChooseMultiImages */ = {
+			isa = PBXGroup;
+			children = (
+				8A6069C11E5D714700686612 /* AppDelegate.h */,
+				8A6069C21E5D714700686612 /* AppDelegate.m */,
+				8A6069C41E5D714700686612 /* ViewController.h */,
+				8A6069C51E5D714700686612 /* ViewController.m */,
+				8A606A0A1E5D79FB00686612 /* ZWChoosedCollectionViewCell.h */,
+				8A606A0B1E5D79FB00686612 /* ZWChoosedCollectionViewCell.m */,
+				8A6069F11E5D729A00686612 /* ZWChooseMultiImages */,
+				8A6069C71E5D714700686612 /* Main.storyboard */,
+				8A6069CA1E5D714700686612 /* Assets.xcassets */,
+				8A6069CC1E5D714700686612 /* LaunchScreen.storyboard */,
+				8A6069CF1E5D714700686612 /* Info.plist */,
+				8A6069BE1E5D714700686612 /* Supporting Files */,
+			);
+			path = ZWChooseMultiImages;
+			sourceTree = "<group>";
+		};
+		8A6069BE1E5D714700686612 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A6069BF1E5D714700686612 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A6069D71E5D714700686612 /* ZWChooseMultiImagesTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A6069D81E5D714700686612 /* ZWChooseMultiImagesTests.m */,
+				8A6069DA1E5D714700686612 /* Info.plist */,
+			);
+			path = ZWChooseMultiImagesTests;
+			sourceTree = "<group>";
+		};
+		8A6069E21E5D714700686612 /* ZWChooseMultiImagesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A6069E31E5D714700686612 /* ZWChooseMultiImagesUITests.m */,
+				8A6069E51E5D714700686612 /* Info.plist */,
+			);
+			path = ZWChooseMultiImagesUITests;
+			sourceTree = "<group>";
+		};
+		8A6069F11E5D729A00686612 /* ZWChooseMultiImages */ = {
+			isa = PBXGroup;
+			children = (
+				8A6069F21E5D729A00686612 /* FullImage */,
+				8A6069F31E5D729A00686612 /* PhotosGroups(多个分组) */,
+				8A6069F41E5D729A00686612 /* PhotosList(一个分组) */,
+				8A6069F51E5D729A00686612 /* ZWChoosePhotosSources */,
+				8A606A191E5D8D2000686612 /* PHAsset+addFlag.h */,
+				8A606A1A1E5D8D2000686612 /* PHAsset+addFlag.m */,
+				8A606B501E5EBC0900686612 /* ZWChooseMultiImagesConfig.h */,
+			);
+			path = ZWChooseMultiImages;
+			sourceTree = "<group>";
+		};
+		8A6069F21E5D729A00686612 /* FullImage */ = {
+			isa = PBXGroup;
+			children = (
+				8A606B441E5E90F500686612 /* ZWPhotoFullViewController.h */,
+				8A606B451E5E90F500686612 /* ZWPhotoFullViewController.m */,
+				8A606B471E5E934D00686612 /* ZWFullImageHeaderView.h */,
+				8A606B481E5E934D00686612 /* ZWFullImageHeaderView.m */,
+				8A606B4D1E5E939A00686612 /* ZWFullImageCollectionViewCell.h */,
+				8A606B4E1E5E939A00686612 /* ZWFullImageCollectionViewCell.m */,
+				8A606B4A1E5E936D00686612 /* ZWFullImageFooterView.h */,
+				8A606B4B1E5E936D00686612 /* ZWFullImageFooterView.m */,
+			);
+			path = FullImage;
+			sourceTree = "<group>";
+		};
+		8A6069F31E5D729A00686612 /* PhotosGroups(多个分组) */ = {
+			isa = PBXGroup;
+			children = (
+				8A606A1C1E5D99AD00686612 /* ZWPhotoGroupsViewController.h */,
+				8A606A1D1E5D99AD00686612 /* ZWPhotoGroupsViewController.m */,
+				8A606B411E5E833200686612 /* ZWPhotoGroupTableViewCell.h */,
+				8A606B421E5E833200686612 /* ZWPhotoGroupTableViewCell.m */,
+				8A606A041E5D737900686612 /* ZWGroupModel.h */,
+				8A606A051E5D737900686612 /* ZWGroupModel.m */,
+			);
+			name = "PhotosGroups(多个分组)";
+			path = PhotosGroups;
+			sourceTree = "<group>";
+		};
+		8A6069F41E5D729A00686612 /* PhotosList(一个分组) */ = {
+			isa = PBXGroup;
+			children = (
+				8A606A0D1E5D7DEA00686612 /* ZWPhotosListViewController.h */,
+				8A606A0E1E5D7DEA00686612 /* ZWPhotosListViewController.m */,
+				8A606A131E5D89F500686612 /* ZWListCollectionViewCell.h */,
+				8A606A141E5D89F500686612 /* ZWListCollectionViewCell.m */,
+				8A606A101E5D7FC100686612 /* ZWPhotoListFooterView.h */,
+				8A606A111E5D7FC100686612 /* ZWPhotoListFooterView.m */,
+				8A606A071E5D74E400686612 /* ZWImageHelper.h */,
+				8A606A081E5D74E400686612 /* ZWImageHelper.m */,
+			);
+			name = "PhotosList(一个分组)";
+			path = PhotosList;
+			sourceTree = "<group>";
+		};
+		8A6069F51E5D729A00686612 /* ZWChoosePhotosSources */ = {
+			isa = PBXGroup;
+			children = (
+				8A6069F61E5D729A00686612 /* zw_choosePhotos_back@2x.png */,
+				8A6069F71E5D729A00686612 /* zw_choosePhotos_placeholder.png */,
+				8A6069F81E5D729A00686612 /* zw_choosePhotosback@3x.png */,
+				8A6069F91E5D729A00686612 /* zw_icon_image_no@2x.png */,
+				8A6069FA1E5D729A00686612 /* zw_icon_image_no@3x.png */,
+				8A6069FB1E5D729A00686612 /* zw_icon_image_yes@2x.png */,
+				8A6069FC1E5D729A00686612 /* zw_icon_image_yes@3x.png */,
+			);
+			path = ZWChoosePhotosSources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A6069BA1E5D714700686612 /* ZWChooseMultiImages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A6069E81E5D714700686612 /* Build configuration list for PBXNativeTarget "ZWChooseMultiImages" */;
+			buildPhases = (
+				8A6069B71E5D714700686612 /* Sources */,
+				8A6069B81E5D714700686612 /* Frameworks */,
+				8A6069B91E5D714700686612 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZWChooseMultiImages;
+			productName = ZWChooseMultiImages;
+			productReference = 8A6069BB1E5D714700686612 /* ZWChooseMultiImages.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A6069D31E5D714700686612 /* ZWChooseMultiImagesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A6069EB1E5D714700686612 /* Build configuration list for PBXNativeTarget "ZWChooseMultiImagesTests" */;
+			buildPhases = (
+				8A6069D01E5D714700686612 /* Sources */,
+				8A6069D11E5D714700686612 /* Frameworks */,
+				8A6069D21E5D714700686612 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A6069D61E5D714700686612 /* PBXTargetDependency */,
+			);
+			name = ZWChooseMultiImagesTests;
+			productName = ZWChooseMultiImagesTests;
+			productReference = 8A6069D41E5D714700686612 /* ZWChooseMultiImagesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A6069DE1E5D714700686612 /* ZWChooseMultiImagesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A6069EE1E5D714700686612 /* Build configuration list for PBXNativeTarget "ZWChooseMultiImagesUITests" */;
+			buildPhases = (
+				8A6069DB1E5D714700686612 /* Sources */,
+				8A6069DC1E5D714700686612 /* Frameworks */,
+				8A6069DD1E5D714700686612 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A6069E11E5D714700686612 /* PBXTargetDependency */,
+			);
+			name = ZWChooseMultiImagesUITests;
+			productName = ZWChooseMultiImagesUITests;
+			productReference = 8A6069DF1E5D714700686612 /* ZWChooseMultiImagesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A6069B31E5D714700686612 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zhengyawei;
+				TargetAttributes = {
+					8A6069BA1E5D714700686612 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = PT88Q3CF88;
+						ProvisioningStyle = Automatic;
+					};
+					8A6069D31E5D714700686612 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = PT88Q3CF88;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8A6069BA1E5D714700686612;
+					};
+					8A6069DE1E5D714700686612 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = PT88Q3CF88;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8A6069BA1E5D714700686612;
+					};
+				};
+			};
+			buildConfigurationList = 8A6069B61E5D714700686612 /* Build configuration list for PBXProject "ZWChooseMultiImages" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A6069B21E5D714700686612;
+			productRefGroup = 8A6069BC1E5D714700686612 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A6069BA1E5D714700686612 /* ZWChooseMultiImages */,
+				8A6069D31E5D714700686612 /* ZWChooseMultiImagesTests */,
+				8A6069DE1E5D714700686612 /* ZWChooseMultiImagesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A6069B91E5D714700686612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6069CE1E5D714700686612 /* LaunchScreen.storyboard in Resources */,
+				8A606A001E5D729A00686612 /* zw_icon_image_no@2x.png in Resources */,
+				8A6069FF1E5D729A00686612 /* zw_choosePhotosback@3x.png in Resources */,
+				8A606A031E5D729A00686612 /* zw_icon_image_yes@3x.png in Resources */,
+				8A6069FE1E5D729A00686612 /* zw_choosePhotos_placeholder.png in Resources */,
+				8A606A011E5D729A00686612 /* zw_icon_image_no@3x.png in Resources */,
+				8A606A021E5D729A00686612 /* zw_icon_image_yes@2x.png in Resources */,
+				8A6069CB1E5D714700686612 /* Assets.xcassets in Resources */,
+				8A6069FD1E5D729A00686612 /* zw_choosePhotos_back@2x.png in Resources */,
+				8A6069C91E5D714700686612 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6069D21E5D714700686612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6069DD1E5D714700686612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A6069B71E5D714700686612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A606A061E5D737900686612 /* ZWGroupModel.m in Sources */,
+				8A606B431E5E833200686612 /* ZWPhotoGroupTableViewCell.m in Sources */,
+				8A606A0C1E5D79FB00686612 /* ZWChoosedCollectionViewCell.m in Sources */,
+				8A606A091E5D74E400686612 /* ZWImageHelper.m in Sources */,
+				8A606A151E5D89F500686612 /* ZWListCollectionViewCell.m in Sources */,
+				8A606A1E1E5D99AD00686612 /* ZWPhotoGroupsViewController.m in Sources */,
+				8A606A1B1E5D8D2000686612 /* PHAsset+addFlag.m in Sources */,
+				8A606A121E5D7FC100686612 /* ZWPhotoListFooterView.m in Sources */,
+				8A606B4F1E5E939A00686612 /* ZWFullImageCollectionViewCell.m in Sources */,
+				8A606B461E5E90F500686612 /* ZWPhotoFullViewController.m in Sources */,
+				8A6069C61E5D714700686612 /* ViewController.m in Sources */,
+				8A6069C31E5D714700686612 /* AppDelegate.m in Sources */,
+				8A6069C01E5D714700686612 /* main.m in Sources */,
+				8A606B4C1E5E936D00686612 /* ZWFullImageFooterView.m in Sources */,
+				8A606A0F1E5D7DEA00686612 /* ZWPhotosListViewController.m in Sources */,
+				8A606B491E5E934D00686612 /* ZWFullImageHeaderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6069D01E5D714700686612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6069D91E5D714700686612 /* ZWChooseMultiImagesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6069DB1E5D714700686612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6069E41E5D714700686612 /* ZWChooseMultiImagesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A6069D61E5D714700686612 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A6069BA1E5D714700686612 /* ZWChooseMultiImages */;
+			targetProxy = 8A6069D51E5D714700686612 /* PBXContainerItemProxy */;
+		};
+		8A6069E11E5D714700686612 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A6069BA1E5D714700686612 /* ZWChooseMultiImages */;
+			targetProxy = 8A6069E01E5D714700686612 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A6069C71E5D714700686612 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A6069C81E5D714700686612 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A6069CC1E5D714700686612 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A6069CD1E5D714700686612 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A6069E61E5D714700686612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A6069E71E5D714700686612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A6069E91E5D714700686612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PT88Q3CF88;
+				INFOPLIST_FILE = ZWChooseMultiImages/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengyawei.ZWChooseMultiImages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8A6069EA1E5D714700686612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PT88Q3CF88;
+				INFOPLIST_FILE = ZWChooseMultiImages/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengyawei.ZWChooseMultiImages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8A6069EC1E5D714700686612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PT88Q3CF88;
+				INFOPLIST_FILE = ZWChooseMultiImagesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengyawei.ZWChooseMultiImagesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZWChooseMultiImages.app/ZWChooseMultiImages";
+			};
+			name = Debug;
+		};
+		8A6069ED1E5D714700686612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PT88Q3CF88;
+				INFOPLIST_FILE = ZWChooseMultiImagesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengyawei.ZWChooseMultiImagesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZWChooseMultiImages.app/ZWChooseMultiImages";
+			};
+			name = Release;
+		};
+		8A6069EF1E5D714700686612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PT88Q3CF88;
+				INFOPLIST_FILE = ZWChooseMultiImagesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengyawei.ZWChooseMultiImagesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZWChooseMultiImages;
+			};
+			name = Debug;
+		};
+		8A6069F01E5D714700686612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PT88Q3CF88;
+				INFOPLIST_FILE = ZWChooseMultiImagesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhengyawei.ZWChooseMultiImagesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZWChooseMultiImages;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A6069B61E5D714700686612 /* Build configuration list for PBXProject "ZWChooseMultiImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6069E61E5D714700686612 /* Debug */,
+				8A6069E71E5D714700686612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A6069E81E5D714700686612 /* Build configuration list for PBXNativeTarget "ZWChooseMultiImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6069E91E5D714700686612 /* Debug */,
+				8A6069EA1E5D714700686612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A6069EB1E5D714700686612 /* Build configuration list for PBXNativeTarget "ZWChooseMultiImagesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6069EC1E5D714700686612 /* Debug */,
+				8A6069ED1E5D714700686612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A6069EE1E5D714700686612 /* Build configuration list for PBXNativeTarget "ZWChooseMultiImagesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6069EF1E5D714700686612 /* Debug */,
+				8A6069F01E5D714700686612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A6069B31E5D714700686612 /* Project object */;
+}
